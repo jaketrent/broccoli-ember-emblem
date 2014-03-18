@@ -1,0 +1,22 @@
+{
+  "name": "broccoli-ember-emblem",
+  "description": "Filter for Broccoli that compiles Emblem templates into Ember.TEMPLATES",
+  "version": "0.1.0",
+  "author": "jaketrent",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaketrent/broccoli-ember-emblem"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "ember",
+    "emblem"
+  ],
+  "dependencies": {
+    "broccoli-filter": "~0.1.2",
+    "ember-template-compiler": "~1.5.0-beta.4",
+    "emblem": "~0.3.11"
+  }
+}
