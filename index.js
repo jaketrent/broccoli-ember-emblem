@@ -13,7 +13,10 @@ function TemplateCompiler (inputTree, options) {
     return new TemplateCompiler(inputTree, options)
   }
   this.inputTree = inputTree
-  this.stripPathFromName = options.stripPathFromName
+
+  if (options) {
+    this.stripPathFromName = options.stripPathFromName
+  }
 }
 
 TemplateCompiler.prototype.extensions = ['embl', 'emblem']

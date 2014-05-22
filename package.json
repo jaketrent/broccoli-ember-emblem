@@ -1,7 +1,7 @@
 {
   "name": "broccoli-ember-emblem",
   "description": "Filter for Broccoli that compiles Emblem templates into Ember.TEMPLATES",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "jaketrent",
   "main": "index.js",
   "license": "MIT",
