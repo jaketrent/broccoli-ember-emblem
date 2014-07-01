@@ -26,7 +26,7 @@ TemplateCompiler.prototype.processString = function (string, relativePath) {
   var templateName = relativePath.substring(0, relativePath.lastIndexOf('\.'))
 
   if (this.stripPathFromName) {
-    templateName = templateName.substring(this.stripPathFromName.length)
+    templateName = templateName.replace(this.stripPathFromName, '')
   }
 
   var compiled = emblem.precompile(compiler.EmberHandlebars, string)
